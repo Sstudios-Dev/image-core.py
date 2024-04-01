@@ -4,7 +4,7 @@ import os
 
 def get_image_url_full():
     image_url = 'https://raw.githubusercontent.com/Sstudios-Dev/image-core/main/src/img/'
-    random_number = random.randint(1, 46)  # Assuming there are 46 images
+    random_number = random.randint(1, 70)  # Assuming there are 46 images
     image_name = f'img-core{random_number}.jpg'
     return {'image_url_full': f'{image_url}{image_name}?raw=true', 'image_name': image_name}
 
